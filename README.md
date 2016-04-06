@@ -45,11 +45,11 @@ The data migration is not one-click process and needs to be done in several step
 1. **Migrate users**
 
     The script assumes an empty Joomla! user base. All users from SMF will be added, none updated.
-    In the file forum_mirate.php uncomment the following code:
+    In the file **forum_migrate.php** uncomment the following code:
     ```php
       $this->out('Migrating users...');
-    $this->_migrateUsers();
-    $this->out('Done migrating users.');
+      $this->_migrateUsers();
+      $this->out('Done migrating users.');
     ```
 
     Using your terminal cd to cli folder and execute the command:
@@ -66,9 +66,9 @@ The data migration is not one-click process and needs to be done in several step
 
     Go back to **forum_migrate.php**, comment out the previously uncommented block for importing users and uncomment the next block:
     ```php
-    $this->out('Migrating user profiles...');
-    $this->_migrateUserProfiles();
-    $this->out('Done migrating user profiles.');
+      $this->out('Migrating user profiles...');
+      $this->_migrateUserProfiles();
+      $this->out('Done migrating user profiles.');
     ```
     Again, execute the script and all user profiles (including gender, birthdate, signature etc.) will be imported to Kunena.
     
@@ -80,9 +80,9 @@ The data migration is not one-click process and needs to be done in several step
 
     Go back to **forum_migrate.php**, comment out the previously uncommented block for importing user profiles and uncomment the next block:
     ```php
-    $this->out('Migrating posts...');
-    $this->_migratePosts();
-    $this->out('Done migrating posts.');
+      $this->out('Migrating posts...');
+      $this->_migratePosts();
+      $this->out('Done migrating posts.');
     ```
     Execute the script. This will migrate all topics and forum posts, as well as update the categories you previously created with required data. Now you can go to Kunena and verify all topics and posts are there and correctly linked with users.
     
