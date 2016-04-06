@@ -20,7 +20,7 @@
 
 It has been successfully used to migrate existing users, boards, topics and forum posts of `SMF 2.0 RC2` to `Kunena 4.0.10` on `Joomla 3.5`.
 
-Note that it may not work out of the box for you, depending on your setup (software versions and database state) but it can give you a head start for successful data migration.
+Note that it may not work out of the box for you, depending on your setup (software versions and database state) but it can give you a head start for a successful data migration.
 
 **For more information have a look at [this blog post](https://www.sakic.net/blog/migrating-data-from-smf-to-kunena/) on *[Sakic.Net](https://www.sakic.net/)*.**
 
