@@ -102,7 +102,7 @@ Although no email support is given you can use [forum](https://www.sakic.net/for
 
 ## Copyright
 
-Copyright (C) *[Sakic.Net](https://www.sakic.net/)*, 2016. - All Rights Reserved.
+Copyright (C) [Sakic.Net](https://www.sakic.net/), 2016. - All Rights Reserved.
 
 [Introduction]: #introduction
 [Requirements]: #requirements
