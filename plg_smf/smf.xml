@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="authentication" method="upgrade">
+	<name>Authentication - SMF</name>
+	<author>Emir Sakic</author>
+	<creationDate>December 2015</creationDate>
+	<copyright>Copyright (C) Emir Sakic 2016. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>emir@sakic.net</authorEmail>
+	<authorUrl>www.sakic.net</authorUrl>
+	<version>1.0</version>
+	<description>
+		This plugin is used for authentication after user migration from Simple Machines Forum.
+		It authenticates the user using the SMF authentication algorithm and converts the password hash to Joomla password hash.
+	</description>
+	<files>
+		<filename plugin="smf">smf.php</filename>
+	</files>
+</extension>
