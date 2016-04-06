@@ -88,7 +88,7 @@ The data migration is not one-click process and needs to be done in several step
     
 6. ### Install the SMF authentication plugin
 
-    Install the plg_smf plugin (you can zip the folder and install it through Joomla! extension manager). Go to Extensions > Plugins and publish the plugin **Authentication - SMF**. Since the password hash algorythm is different in SMF, this plugin is required to authenticate the imported users. It will also convert their password hash to Joomla! standard hash first time they successfully login.
+    Install the **plg_smf** plugin (you can zip the folder and install it through Joomla! extension manager). Go to Extensions > Plugins and publish the plugin **Authentication - SMF**. Since the password hash algorythm is different in SMF, this plugin is required to authenticate the imported users. It will also convert their password hash to Joomla! standard hash first time they successfully login.
     
 7. ### Purge the database
     
