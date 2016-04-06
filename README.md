@@ -42,7 +42,7 @@ Note that it may not work out of the box for you, depending on your setup (softw
 
 The data migration is not one-click process and needs to be done in several steps, including some manual work. At this point **make a database backup** so you can roll-back should something go wrong.
 
-1) **Migrate users**
+1. **Migrate users**
 
     The script assumes an empty Joomla! user base. All users from SMF will be added, none updated.
     In the file forum_mirate.php uncomment the following code:
@@ -51,17 +51,18 @@ The data migration is not one-click process and needs to be done in several step
     $this->_migrateUsers();
     $this->out('Done migrating users.');
     ```
+
     Using your terminal cd to cli folder and execute the command:
     ```
         php forum_migrate.php
     ```
     All SMF users should be imported to Joomla! Note that this process can take some time depending on number of users. Verify that users are added in Joomla! users manager.
     
-2) **Manually sync users with Kunena**
+2. **Manually sync users with Kunena**
     
     Now manually sync imported users with Kunena. Go to **Components > Kunena > Tools > Synchronize Users**. Check **Add user profiles to everyone** and click on the **Sync button**. At this point Kunena should have created user profiles for all users and you can verify it by navigating to **Kunena > Users**.
     
-3) **Migrate user profiles**
+3. **Migrate user profiles**
 
     Go back to **forum_migrate.php**, comment out the previously uncommented block for importing users and uncomment the next block:
     ```php
