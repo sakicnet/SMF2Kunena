@@ -96,9 +96,9 @@ The data migration is not one-click process and needs to be done in several step
     
 ## Disclaimer
 
-This script is provided as-is, without support. The author can not be hold liable for any damages caused by using or misusing this script including, but not limited to, loss of data on your website. You use it on your own risk.
+This script is provided as-is, without support. The author can not be held liable for any damages caused by using or misusing this script including, but not limited to, loss of data on your website. You use it at your own risk.
 
-Although no email support is given you can use [forum](https://www.sakic.net/forum/) on our site to address any issues you may have. You can also get paid support or hire us to make a data conversion on your site. Plase [contact us](https://www.sakic.net/contact/) for details.
+Although no email support is given you can use [forum](https://www.sakic.net/forum/) on our site to address any issues you may have. You can also get paid support or hire us to make the data conversion on your site. Plase [contact us](https://www.sakic.net/contact/) for details.
 
 ## Copyright
 
