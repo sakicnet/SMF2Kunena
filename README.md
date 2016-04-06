@@ -22,7 +22,7 @@ It has been successfully used to migrate existing users, boards, topics and foru
 
 Note that it may not work out of the box for you, depending on your setup (software versions and database state) but it can give you a head start for successful data migration.
 
-**For more information have a look at [this blog post](https://www.sakic.net/blog/migrating-data-from-smf-to-kunena/) on *Sakic.Net*.**
+**For more information have a look at [this blog post](https://www.sakic.net/blog/migrating-data-from-smf-to-kunena/) on *[Sakic.Net](https://www.sakic.net/)*.**
 
 ## Requirements
 
@@ -102,7 +102,7 @@ Although no email support is given you can use [forum](https://www.sakic.net/for
 
 ## Copyright
 
-Copyright (C) Sakic.Net, 2016. - All Rights Reserved.
+Copyright (C) *[Sakic.Net](https://www.sakic.net/)*, 2016. - All Rights Reserved.
 
 [Introduction]: #introduction
 [Requirements]: #requirements
