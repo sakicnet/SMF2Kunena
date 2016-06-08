@@ -363,6 +363,7 @@ class ForumMigrate extends JApplicationCli
 	private function _string_decode($str) {
 		$str = html_entity_decode($str);
 		$str = str_replace('<br />', "\n", $str);
+		$str = htmlspecialchars_decode($str, ENT_QUOTES | ENT_HTML401);
 		return $str;
 	}
 }
